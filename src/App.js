@@ -1,14 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { FaBeer } from "react-icons/fa";
+import './App.css'
+import Sidebar from './Sidebar.jsx'
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        h1 > Dumb header test < /h1> <FaBeer / > { " " } <
-        /div>
-    );
+  return (
+    <div>
+      <Sidebar />
+    </div>
+  )
 }
 
-export default App;
+export default App
