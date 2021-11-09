@@ -1,14 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { FaBeer } from "react-icons/fa";
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        h1 > Dumb header test < /h1> <FaBeer / > { " " } <
-        /div>
-    );
+  const notify = () => toast("Wow so easy !");
+
+  return (
+    <div className="App">
+      <h1>Dumb header test</h1>
+      <button onClick={notify} style={{backgroundColor: "red"}}>Notify !</button>
+      <ToastContainer />
+    </div>
+  );
 }
 
 export default App;
