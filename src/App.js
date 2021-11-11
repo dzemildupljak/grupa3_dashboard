@@ -3,7 +3,7 @@ import './App.css'
 import { ToastContainer, toast } from 'react-toastify'
 
 import 'react-toastify/dist/ReactToastify.css'
-import Sidebar from './Sidebar'
+import Sidebar from './components/sidebar/Sidebar'
 
 function App() {
   const notify = () => toast('Wow so easy !')

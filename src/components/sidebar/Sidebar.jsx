@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+import './Sidebar.css'
 import { DiReact } from 'react-icons/di'
-import SidebarElement from './SidebarElement.jsx'
+import SidebarElement from './sidebarElement/SidebarElement.jsx'
 
 const sidebarElements = [
   {
