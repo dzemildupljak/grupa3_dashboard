@@ -68,3 +68,69 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Starting kit` fails to minify
+
+### `Step 1` fails to minify
+
+go to main(staging) branch
+
+git checkout main
+
+### `Step 2` fails to minify
+
+update main branch
+
+git pull origin main
+
+### `Step 3` fails to minify
+
+create branch according to task name
+
+git checkout -b initials/branch_name(task_name)
+
+### `Finishing kit` fails to minify
+
+finishig work
+
+add / commit with adequate message
+add / commit with adequate message
+add / commit with adequate message
+.
+.
+.
+
+### `Step 4.1` fails to minify
+
+update main branch and merge it to you taskbranch
+
+git checkout main
+
+git pull origin main
+
+git checkout initials/branch_name(task_name)
+
+git merge main
+
+add / commit with adequate message
+
+### `Step 4.2` fails to minify
+
+git push origin initials/branch_name(task_name)
+
+### `Step 5` fails to minify
+
+got to github.com
+find compare & createPullRequest
+
+if does not have any comments just merge
+
+if does have comments
+
+### `Step 6` fails to minify
+
+go to that branch and fix comments
+
+### `Step 4` fails to minify
+
+git push origin initials/branch_name(task_name)
