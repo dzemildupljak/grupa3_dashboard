@@ -1,17 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Card from "./Components/customCard/Card";
+import Cards from "./Components/customCard/Cards";
+import Sidebar from "./Components/sidebar/Sidebar"
 
 function App() {
-  const notify = () => toast('Wow so easy !')
 
   return (
     <div className="flex justify-center">
       <Sidebar />
-      <h1>Dumb header test</h1>
-      <Card></Card>
+      {/* <h1>Dumb header test</h1> */}
+      <Cards></Cards>
     </div>
   )
 }
 
-export default App
+export default App;
