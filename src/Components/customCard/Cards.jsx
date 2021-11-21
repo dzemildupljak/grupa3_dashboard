@@ -6,10 +6,9 @@ function Cards() {
 
     return (
         <>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card ime="Jonathan"></Card>
+        <Card ime="Jonathan"></Card>
+        <Card ime="Jonathan"></Card>
         </>
     )
 }
